@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "../../Component/NavBar";
+import Banner from "../../Component/BanNer";
 function Browse() {
   return (
     <div className="app">
       <Navbar />
-
-      {/* <Banner /> */}
+      <Banner />
     </div>
   );
 }
